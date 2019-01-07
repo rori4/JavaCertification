@@ -31,13 +31,6 @@ The code will not compile <<
 2
 3
 
-1
-3
-2
-
 Explain:
 Will not compile because we don't annotate with throw or catch the exception
-
-
-
  */

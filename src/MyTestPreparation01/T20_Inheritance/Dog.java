@@ -1,6 +1,6 @@
-package MyTestPreparation01.T20_Inheritance.Dog;
+package MyTestPreparation01.T20_Inheritance;
 
-/*
+
 public class Dog extends Animal {
     Dog() {
     }
@@ -14,7 +14,6 @@ public class Dog extends Animal {
        dog.eat();
     }
 }
-*/
 
 /*
 It will print "Nom... Nom... Woof!"

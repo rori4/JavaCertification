@@ -2,8 +2,10 @@ package MyTestPreparation01;
 
 public class T06_DataTypes {
     public static void main(String[] args) {
-        int a, b, c = 10 ;
-       // System.out.println(a + b + c);
+        int a;
+        int b, c = 10 ;
+        a = c;
+//        System.out.println(a + b + c);
     }
 }
 

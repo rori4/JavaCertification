@@ -19,11 +19,11 @@ public class T17_Methods {
 
 //    private static char WriteName(char fInitial, char mInitial, char lInitial){
 //        return fInitial+"."+mInitial+"."+lInitial+".";
-//    } -> will not compile because returns string and not char
-
-    private static String WriteName(char fInitial, char mInitial, char lInitial){
-        return fInitial+"."+mInitial+"."+lInitial+".";
-    }
+//    }
+//
+//    private static String WriteName(char fInitial, char mInitial, char lInitial){
+//        return fInitial+"."+mInitial+"."+lInitial+".";
+//    }
 
 
     public static void main(String[] args) {

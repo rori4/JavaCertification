@@ -18,7 +18,6 @@ public class T25_Loop {
 
 1 1 2 2
 
-1 1 2 2
 
 The code will not compile
 

@@ -26,7 +26,7 @@ public class T18_Inheritance_Car implements BasicVehicle {
 Vroom start! MaxSpeed: 120
 Vroom start! MaxSpeed: 1
 The code will not compile because we can't assign value to the variable maxSpeed as it is final
-This code will not compile because we can't resolve Animal.maxSpeed
+This code will not compile because we can't resolve BasicVehicle.maxSpeed
 
 
 

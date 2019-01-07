@@ -1,4 +1,4 @@
-package MyTestPreparation01.T20_Inheritance.Animal;
+package MyTestPreparation01.T20_Inheritance;
 
 public class Animal {
     public Animal() {

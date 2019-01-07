@@ -2,11 +2,12 @@ package MyTestPreparation01;
 
 public class T01_Exception {
     public static void main(String[] args) {
-        try {
-            System.out.println(calcSub(5, 4));
-        } catch (Exception e) {
-            System.out.println(e);
-        }
+        throw new ArithmeticException();
+//        try {
+//            System.out.println(calcSub(5, 4));
+//        } catch (Exception e) {
+//            System.out.println(e);
+//        }
     }
 
     static int calcSub(int a, int b) throws NegativeNumberException {

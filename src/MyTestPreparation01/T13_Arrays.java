@@ -8,7 +8,7 @@ public class T13_Arrays {
         for (int row = 0; row < matrix.length; row++) {
             for (int col = 0; col < matrix[row].length; col++) {
                 /*INSERT CODE HERE*/
-                matrix[row][col] = (row+1)*(col+1);
+//                matrix[row][col] = (row+1)*(col+1);
             }
         }
 
