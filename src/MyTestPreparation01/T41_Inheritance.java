@@ -17,8 +17,8 @@ class B41 extends A41 {
 
 }
 
-class C41 extends B41{ // (2)
-    public void hello(){
+class C41 extends B41{
+    public void hello() /*throws Exception*/ { // (2)
         System.out.println("Hello I am class C10");
     }
 }
@@ -28,6 +28,6 @@ What will we get if we run this code?
 A compile time error for line 1
 Hello I am class C10
 Hello I am class B
-We compile time because we don't have thrower hello in class B
+A compile time error for line 2
 
 */

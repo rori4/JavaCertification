@@ -6,6 +6,7 @@ import java.util.List;
 public class T37_JavaAPI {
     public static void main(String[] args) {
         List a = new ArrayList();
+        System.out.println(a.size());
         a.add(1,"A");
         a.add(2,"B");
         a.add(4,"C10");

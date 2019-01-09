@@ -4,9 +4,6 @@ public class T29_Inheritance {
     public static void main(String[] args) {
         A class1 = new C();
         B class2 = (B) class1;
-
-        System.out.println(class1);
-        System.out.println(class2);
         System.out.println(class1.name + " " + class2.getName());
     }
 }

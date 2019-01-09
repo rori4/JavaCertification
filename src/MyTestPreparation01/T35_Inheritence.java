@@ -1,5 +1,9 @@
 package MyTestPreparation01;
 
+abstract class AClass {
+    final static int  value = 0;
+}
+
 public class T35_Inheritence extends AClass {
     public static void main(String[] args) {
         T35_Inheritence a = new T35_Inheritence();
@@ -8,10 +12,6 @@ public class T35_Inheritence extends AClass {
         int d = value, //(3)
         e = a.value - 5 ; //(4)
     }
-}
-
-abstract class AClass {
-    final static int  value = 0;
 }
 
 /*

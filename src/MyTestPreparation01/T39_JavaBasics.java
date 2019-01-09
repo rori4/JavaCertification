@@ -1,9 +1,9 @@
 package MyTestPreparation01;
-
+import MyTestPreparation01.T20_Inheritance.Animal;
 public class T39_JavaBasics {
     public static void main(String[] args) {
-//        Animal animal = new Animal();
-//        System.out.println(animal.HEALTH);
+        Animal animal = new Animal();
+        System.out.println(animal.HEALTH);
     }
 }
 
