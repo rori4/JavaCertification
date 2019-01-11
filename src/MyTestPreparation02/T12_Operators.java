@@ -19,4 +19,6 @@ d
 e
 f
 All of them will compile.
+
+In this question synchronized is not allowed to be used in this way as defines. And the other line that will not compile is the one that we define a static abstract method. This is  because "abstract" means: "Implements no functionality", and "static" means: "There is functionality even if you don't have an object instance". And that's a logical contradiction. Volatile is a valid Java keyword and we can use it like this..
 */

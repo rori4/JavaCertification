@@ -15,4 +15,5 @@ ava P
 avaPr
 The code will not compile
 
+The trim() method will delete all empty spaces before and after the string. This will not affect spaces between words. As for substring you should know that the counting of the string indexes start from 0 and when we use two numbers the first is where we start ,including the letter at that index, the second one is where we stop, excluding the letter in that position.
 */

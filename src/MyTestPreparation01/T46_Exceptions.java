@@ -10,7 +10,7 @@ public class T46_Exceptions {
 class A46 {
     public String hello() {
         return "Hello";
-        //throw new IOException();
+//        throw new IOException();
     }
 }
 

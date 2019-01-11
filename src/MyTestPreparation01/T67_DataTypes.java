@@ -5,11 +5,11 @@ public class T67_DataTypes {
     public static void main(String[] args) {
         int a = 1;
         int b = 1;
-        /*if(a.equals(b)){
+//        if(a.equals(b)){
             System.out.println("they are equal");
-        } else {
+//        } else {
             System.out.println("not equal");
-        }*/
+//        }
 
     }
 }

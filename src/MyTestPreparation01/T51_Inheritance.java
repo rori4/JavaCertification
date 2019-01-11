@@ -8,9 +8,9 @@ interface A51{
 
 }
 
-/*interface B implements A { //(2)
-
-}*/
+//interface B51 implements A51 { //(2)
+//
+//}
 
 interface C51 extends A51{ //a,B (3)
 

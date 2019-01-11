@@ -4,7 +4,8 @@ public interface T64_Inheritance {
     final int a = 5;
     void test();
 //    final String message();
-    static void compute(){ System.out.println("computing..."); }
+    static void compute(){ System.out.println("computing...");
+    }
 }
 
 

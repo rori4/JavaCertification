@@ -7,7 +7,6 @@ public class T69_Inheritance {
     }
 }
 
-
 interface IBank {
     public default String getAccount() {
         return "1";

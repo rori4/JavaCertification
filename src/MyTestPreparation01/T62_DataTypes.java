@@ -1,6 +1,5 @@
 package MyTestPreparation01;
 
-
 public class T62_DataTypes {
         int a = new Integer(1);
         Integer b = 2;
@@ -15,6 +14,6 @@ Line 2
 Line 3
 Line 4
 Line 5
-None them will give an error
+None of them will give an error
 
 */

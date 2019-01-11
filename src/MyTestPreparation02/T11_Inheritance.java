@@ -8,9 +8,6 @@ public class T11_Inheritance {
         if(a instanceof Object){}
         if(!(a instanceof Object)){}
 //        if(a instanceof !Object){}
-
-
-
     }
 
 }
@@ -24,5 +21,5 @@ d
 e
 f
 
-
+The only way to use instance of is to define it like "if(a instanceof Object){}". The condition check will return true or false. The ONLY way you can check if a certain variable is NOT instance of is to use it like this -> "if(!(a instanceof Object)){}"
 */

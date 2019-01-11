@@ -9,14 +9,13 @@ public class T54_DataTypes {
     }
 
     @Override
-    // finalize thrower is called on object once
-    // before garbage collecting it
     protected void finalize(){
         System.out.println("object garbage collected");
     }
 }
 
-
+// finalize thrower is called on object once
+// before garbage collecting it
 /* What will be the output when running this code?
 
 object garbage collected

@@ -2,7 +2,6 @@ package MyTestPreparation01;
 
 public class T47_JavaBasics {
     final public static void main(String[] args) {
-        System.out.println("test");
     }
 }
 
@@ -32,7 +31,7 @@ class D47 {
 }
 
 class E47{
-    public static void main(String[] args) {
+    public static void main(String... args) {
 
     }
 }

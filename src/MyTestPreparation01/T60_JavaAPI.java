@@ -13,7 +13,7 @@ public class T60_JavaAPI {
     }
 }
 
-abstract class Animal{
+abstract class Animal {
     @Override
     public String toString() {
         return "I am an animal";

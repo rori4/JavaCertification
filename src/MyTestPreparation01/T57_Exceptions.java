@@ -6,9 +6,9 @@ public class T57_Exceptions {
             double n = 230 / 0.0;
         } catch (RuntimeException r) {
             System.out.println("runtime");
-        } /*catch (ArithmeticException e) {
+        } /* catch (ArithmeticException e) {
             System.out.println("arithmetic");
-        }*/
+        } */
     }
 }
 

@@ -14,9 +14,9 @@ class A45 {
 }
 
 class B45 extends A45{
-   /* public int number() {
-        return 2;
-    }*/
+//    public int number() {
+//        return 2;
+//    }
 }
 
 /*
