@@ -45,6 +45,5 @@ Method is called
 
 The code will not compile
 
-There is not thrown error in the thrower. Even if you type "throws CustomException2" you must throw the error inside the thrower.
-
+Although the method() is with a signature that it throws a CustomException2, inside of it we don't really throw an error whatsoever. This is why we are only going to print "Method is called" and "Everything caught".
 */

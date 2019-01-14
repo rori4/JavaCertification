@@ -26,7 +26,5 @@ False
 The code will not compile
 The code will throw a Runtime Exception
 
-
-
-
+Here there are multiple factors that play a role. First when we cast a double to an integer you should remember that when the number is above zero and it is casted to an integer it will be rounded down. So in this case we are going to get 'a' to be 5. The lambda expression is correctly used and will return true or false after it checks if a is greater then 5 or less than it. In our case it will return false and this is why we get "False" printed as a result.
 */

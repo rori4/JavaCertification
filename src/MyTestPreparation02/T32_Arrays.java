@@ -17,5 +17,5 @@ c
 d
 All of them are correct
 
-
+Line 3 is not a correct way to define a String array. All other array declarations are correct.
 */

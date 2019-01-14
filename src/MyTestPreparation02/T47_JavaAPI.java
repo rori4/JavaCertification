@@ -1,6 +1,6 @@
 package MyTestPreparation02;
 
-public class T47_Loop {
+public class T47_JavaAPI {
     public static void main(String[] args) {
         if (Boolean.valueOf("true")) {
             System.out.print("a ");

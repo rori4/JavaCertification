@@ -25,5 +25,5 @@ What will we get if we try to compile and run this code?
 30
 Exception in thread "main" java.lang.ClassCastException:
 
-
+Here you would get a ClassCastException. The reason why is because A's runtime type is a B class, and so when you tell the runtime to perform the cast it sees that B isn't really a C and so throws a ClassCastException. If we had A a = new C(); and then cast it we would have not issue here and the printed result would be 30 but this is not the case.
 */

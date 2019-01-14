@@ -20,5 +20,5 @@ e
 All of them will compile.
 
 
-
+Variable b and d will cause a compile time error. In the case of the float number we need to add 'f' at the end so it can be defined properly. As for the short when we try to and 1 to the max value of short we going to get an integer which will not fit in short. This will cause a compile time error.
 */

@@ -10,11 +10,12 @@ public class T30_JavaBasics {
 }
 
 /*
-What will happen if we try to compile and run this code
+What will happen if we try to compile and run this code?
 The code will compile with no problem
 The code will fail at A
 The code will fail at B
-The code will fail at C10
+The code will fail at C
 The code will fail at D
 
+There are nothing wrong with this code. It will compile and run with not problem.
 */

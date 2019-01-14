@@ -24,8 +24,7 @@ This will print "Java Java Java Java" four times
 This will print "Java Java Java Java" one time
 This will be stuck in infinite loop printing "Java Java Java Java"
 
-declaring private int i will give it a default value of 0 so the code will compile.
-However the code will be stuck in an infinite loop.
+declaring private int i will give it a default value of 0 so the code will compile. However the code will be stuck in an infinite loop.
 
 
 */

@@ -30,4 +30,5 @@ What will we get if we run this code?
 2 1 2
 The code will not compile
 
+Here you should remember the order of initialization in Java. In Java, the order for initialization statements is as follows:  1) static variables and static initializers in order; 2) instance variables and instance initializers in order; 3) constructors. In our case the static String a = name(); and the static block "static {a = age();}" will be initialized first. This is why at the end we get 1 2 3
 */

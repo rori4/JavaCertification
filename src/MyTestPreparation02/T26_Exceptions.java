@@ -38,5 +38,5 @@ The code will not compile
 Failed
 
 
-
+Although we are giving as argument of the cause a RuntimeException we are still throwing an Exception. This is why in the try catch block we will catch the Exception and we will print "Exception caught"
 */
