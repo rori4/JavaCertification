@@ -22,4 +22,5 @@ The code will not compile because C10 is not accessible
 The code will not compile because calc() is not accessible
 The code will compile and will print "I am accessed"
 
+Everything is accessible from inside of this class and all lines of code are correct. This is why we are going to print "I am accessed".
 */

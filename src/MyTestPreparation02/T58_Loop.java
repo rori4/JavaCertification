@@ -8,16 +8,25 @@ public class T58_Loop {
         List<String> list = new ArrayList<>();
         list.add("A");
         list.add("B");
-        list.add("C10");
+        list.add("C");
         for (final String item : list) {
             list.set(list.indexOf(item),"Java");
+            System.out.print(item+" ");
         }
-        System.out.println(String.join(", ", list));
+        System.out.println();
+        System.out.println(list);
     }
 }
 /*
-A, B, C10
+A B C
+[A, B, C]
+
+A B C
+[Java, Java, Java]
+
 Java, Java, Java
+[Java, Java, Java]
+
 The code will not compile
 The code throw an exception
 

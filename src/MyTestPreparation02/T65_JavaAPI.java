@@ -19,5 +19,5 @@ Java
 ORPavaJGRAMMING
 JavaPROgramming
 
-
+StringBuilder is a mutable object and Strings are immutable. This is why when we run "sb.reverse();" we are going to reverse the StringBuilder and it will stay changed. The .toLowerCase() will return a new String that is with all lower case characters however it will not change the variable itself. The ".append()" will attach the string to the end of the StringBuilder and at the end we are going to receive "JavaPROGRAMMING".
 */

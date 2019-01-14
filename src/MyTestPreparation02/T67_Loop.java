@@ -17,5 +17,5 @@ Java Java
 The code will not compile
 This will throw an exception
 
-We need a boolean
+The code will not compile because the while construct requires a boolean and here we give it an integer.
 */

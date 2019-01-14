@@ -6,7 +6,7 @@ public class T63_DataTypes {
     public static void main(String[] args) {
 //        a = 10;    // 1
         b = 6;       // 2
-//        this.calc(); // 3
+//        this.m1(); // 3
         m2();        // 4
     }
 

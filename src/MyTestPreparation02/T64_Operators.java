@@ -6,11 +6,7 @@ public class T64_Operators {
         int b = 2 + (7 * 4) - 10;
         int c = (2 + 7) * -(4 - 10);
         int d = 2 + 7 * (4 - 10) + 2;
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-
+        System.out.println("a="+a+"; b="+b+"; c="+c+"; d="+d);
     }
 }
 /*
@@ -20,5 +16,5 @@ b
 c
 d
 
-
+The key for this question is to know the operator's precedence. For every integer we first do the calculation in brackets, then the multiplication, after that we do the addition. Here are what the different variables are as a result -> a=20; b=20; c=54; d=-38
 */
