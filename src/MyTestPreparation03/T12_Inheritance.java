@@ -34,5 +34,5 @@ I am B12
 I am C12
 The code will not compile
 
-
+You cant override the inherited static methods, as in java overriding takes place by resolving the type of object at run-time and not compile time, and then calling the respective method.  This is why we are going to bet as a result "I am A" although that our get() method returns a C class.
 */

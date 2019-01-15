@@ -10,6 +10,7 @@ public class T22_Methods {
     public void changeAge(int age){
         this.age = age;
     }
+
     public static void main(String[] args) {
         T22_Methods test = new T22_Methods();
         test.changeAge(10);
@@ -26,5 +27,5 @@ public class T22_Methods {
 0 20
 
 
-
+In the case of the method setAge we are not going to change the global variable age as we can't access it if we don't use the keyword this. So in this case we are setting the variable a that we pass to be equal to itself. This is why we are going to get "10 10" as a result.
 */

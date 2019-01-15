@@ -20,5 +20,5 @@ java T06_JavaBasics 1, 2
 The code will fail to compile.
 
 
-
+The code will print '2' if we provide it with two arguments. remember that .length will return for us the number of elements inside an array.
 */

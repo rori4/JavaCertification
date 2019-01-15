@@ -7,7 +7,6 @@ public class T20_Loop {
             k -= -1;
             System.out.print(k+" ");
         } while (k++ < 6);
-
     }
 }
 

@@ -11,7 +11,6 @@ public class T24_JavaAPI {
         b.byteValue();
         System.out.println("".compareTo("234423"));
     }
-
 }
 
 /*

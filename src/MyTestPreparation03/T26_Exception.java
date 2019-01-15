@@ -27,5 +27,5 @@ What will we get if we run this code?
 6
 Exception in thread "main" java.lang.RuntimeException: Number not even.
 
-
+Although we are going to go through complicated checks here that  first in the try block we are going to throw an Exception and catch it with the catch block, at the end we are still going to go inside the finally method and return 6. This is why the answer here is 6.
 */

@@ -16,5 +16,5 @@ What will this code print if we run it
 It will throw ArrayIndexOutOfBoundsException
 The code will not compile
 
-
+When we are making 'i' be equal to k we return 'k' and try to reach the element at position "3". This for the array 'i' is is the last element -> 5
 */

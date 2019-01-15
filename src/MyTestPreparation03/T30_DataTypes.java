@@ -28,5 +28,5 @@ square = null;
 
 System.gc()
 
-
+An object can be made eligible for garbage collection by making sure there are no references pointing to that object. This is why here "square = null" is the right answer.
 */

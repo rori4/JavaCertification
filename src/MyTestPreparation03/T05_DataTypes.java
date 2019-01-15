@@ -17,7 +17,7 @@ public class T05_DataTypes {
 
     public void printNameAge(int AGE){
         changeAge(40);
-        System.out.println(this.NAME+ " is " + AGE + " years old.");
+        System.out.println(NAME+ " is " + AGE + " years old.");
     }
 
     private void changeAge(int i) {

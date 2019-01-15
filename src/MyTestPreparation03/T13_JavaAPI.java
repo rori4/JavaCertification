@@ -20,5 +20,5 @@ The number is 10
 the number
 The code will not compile
 
-The code will not compile because concat requires a string.
+The code will not compile as we are trying to concat a String with integer. The concat method requires a String.
 */

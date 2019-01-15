@@ -1,5 +1,5 @@
-package MyTestPreparation03;
-
+//package MyTestPreparation03;
+//
 //public class T19_Inheritance extends A19 {
 //    public T19_Inheritance(int m) {
 //        System.out.println("Java");

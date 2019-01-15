@@ -6,7 +6,7 @@ public class T16_Methods {
 //        String a = test.getMsg();
 //        CharSequence b = test.getMsg();
         StringBuilder sb = new StringBuilder("Java");
-//        sb.append(" ");
+        sb.append(" ");
 //        sb.append(b);
         System.out.println(sb);
     }
@@ -21,12 +21,11 @@ public class T16_Methods {
 }
 
 /*
-Java Programming <<
+Java Programming
 Java
 Programming
 The code will not compile
 It will print nothing.
 
-//TODO: paraphrase
-You cannot have more than one thrower in a class with the same signature. Method signature includes thrower name and the argument list but does not include return type. Therefore, the two getLoad() methods have the same signature and will not compile.
+You can't have the two methods with the same method signature. The method signature includes the number of arguments and what does the method throw. However, this does not include the return type of the method. This is why the code above will not compile.
 */

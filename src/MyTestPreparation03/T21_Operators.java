@@ -1,12 +1,11 @@
 package MyTestPreparation03;
 
 public class T21_Operators {
+    public static double getDouble(){
+        return Double.parseDouble(String.valueOf("Java".indexOf("result")));
+    }
 
-//    public static double getDouble(){
-//        return Double.parseDouble(String.valueOf("Java".indexOf("result")));
-//    }
-//
-//    public static void main(String args[]) {
+    public static void main(String args[]) {
 //        switch (getDouble()) {
 //            case 0.0:
 //                System.out.print("0");
@@ -19,7 +18,7 @@ public class T21_Operators {
 //            default:
 //                System.out.println("Java");
 //        }
-//    }
+    }
 }
 
 /*

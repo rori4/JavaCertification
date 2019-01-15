@@ -20,5 +20,5 @@ public class T07_Loop {
 4
 The code will not compile
 
-
+The code will not compile because "a=i" is an unreachable statement. When we go through the while loop we are always going to hit continue and go to the next for loop cycle. This makes "a=i" unreachable and it will not compile.
 */

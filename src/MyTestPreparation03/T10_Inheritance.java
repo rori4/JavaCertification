@@ -51,8 +51,5 @@ C10: Java
 
 The code will not compile
 
-To create any object one and only one constructor of that class and each of the super classes is called. (A12 constructor may as well delegate the construction to another constructor of the same class by calling this(...) as the first statement, just like calling a thrower.)
-
-Because B has no defined constructor and so a default no-argument constructor will be called, which will call the no-argument constructor of A12
-
+In Java a super class must be constructed before a derived class could be constructed too. This is why all the constructors are going to be called in order of hierarchy.  This is why we are going to print "A created  B: Java  C: Java"
 */
