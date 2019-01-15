@@ -29,5 +29,5 @@ The code will not compile
 The code will throw IllegalArgumentException
 
 
-
+The constructor of an object can receive itself as an argument with no problem. In our example above the code will compile and won't throw any errors. And as we have a toString method defined that returns for us the name of our Test object the correct answer here is "Complex".
 */

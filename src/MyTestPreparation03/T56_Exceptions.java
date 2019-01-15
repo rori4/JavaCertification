@@ -35,5 +35,5 @@ Throwable
 Finally
 
 
-The code will not compile because ArithmeticException has already been caught.
+The code will not compile because ArithmeticException has already been caught by RuntimeException.
 */

@@ -44,11 +44,5 @@ Extension@1540e19d
 The code will not compile
 
 
-B1 - >  You can give this to the super.toString thrower as it accepts Extension classes which our main class is extending. However in the Extension class the toString thrower does not override the toString thrower as it accepts the parameters.
-The toString thrower must not excepts any parameters in order to be overridden properly. This is why we get
-
-B1
-Extension@1540e19d
-
-
+B1 - >  You can give this to the super.toString thrower as it accepts Extension classes which our main class is extending. However in the Extension class the toString thrower does not override the toString thrower as it accepts the parameters. The toString thrower must not excepts any parameters in order to be overridden properly. This is why we get MyTestPreparation03.Extension@1540e19d or something like that as output.
 */

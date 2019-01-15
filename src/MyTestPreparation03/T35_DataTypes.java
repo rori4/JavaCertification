@@ -6,10 +6,6 @@ public abstract class T35_DataTypes {
 //    abstract int b ; //3
     volatile Object[ ] obj = {}; //4
     static int a ; //5
-
-    public static void main(String[] args) {
-        System.out.println(secretNumber);
-    }
 }
 
 
@@ -17,7 +13,7 @@ public abstract class T35_DataTypes {
 Which of the following lines will cause a compile time error?
 
 
-
+In Java only classes and methods can be abstracts. We can't declare an abstract variable.
 */
 
 

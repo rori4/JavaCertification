@@ -18,6 +18,6 @@ What will be the result of running this code?
 This will be stuck in infinite loop
 It will throw a runtime exception
 
-
+The while loop will continue to loop true until a == count is not true. Remember that the first do goes trough and increases count by 1 and after that 'a' is equal to 'count' so we loop again. After the second loop count is equal to 2 and this is the right answer.
 */
 

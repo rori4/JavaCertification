@@ -49,5 +49,5 @@ not equal
 not equal
 equal
 
-
+Remember that '==' in Java compares if the object reference are the same. This is why b==a will return true. Although after that we are calling changeValues() method, remember that we pass arguments by value in java and not by reference. So this method will not change any values and (a.a == b.a & a.b == b.b) will return true for us also. At the end we will end up with "equal equal"
 */

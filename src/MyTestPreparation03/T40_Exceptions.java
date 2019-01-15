@@ -4,7 +4,6 @@ public class T40_Exceptions {
     public static void main(String[] args) {
         Double a = 3.4;
         Double b = null;
-
         Double c = 0.0;
         new ArithmeticException();
         c += a;

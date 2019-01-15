@@ -20,8 +20,5 @@ The code will not compile because int can not be converted to float
 
 
 
-
-
-
-
+The right answer is "The code will not compile because int[] cannot be converted to java.lang.Integer[]". It is self explanatory. Although int can be converted to Integer they are different types and this will cause the compilation error.
 */

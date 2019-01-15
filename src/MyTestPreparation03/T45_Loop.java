@@ -28,12 +28,7 @@ We will get an infinite loop that will not stop printing
 The code will throw an error.
 
 
-The key here is to know what will happen if we cast a decimal number to int.
-If we are above 0 like 0.99 cast will give us 0. So it will round down.
-If we are below 0 casting will round up. So if we cast -0.99 we still are going to get zero.
-So we will be in the while loop until the division of the current array element and
-x is NOT EQUAL to zero. The while loop will enter and continue to loop until the statement is TRUE.
-
+The key here is to know what will happen if we cast a decimal number to int. If we are above 0 like 0.99 cast will give us 0. So it will round down. If we are below 0 casting will round up. So if we cast -0.99 we still are going to get zero. So we will be in the while loop until the division of the current array element and x is NOT EQUAL to zero. The while loop will enter and continue to loop until the statement is TRUE.
 So here are the steps that we have:
 x=5;a=5 (5 % 5 = 0) -> skip while -> x += 3 -> x = 8 -> (no print)
 x=8;a=12 (12 % 8 = 4) -> go in while -> x++ -> x = 9 -> PRINT: 8 12

@@ -7,7 +7,6 @@ public class T52_Constructs {
         int a = 0;
 //        System.out.println(this.a);
     }
-
 }
 
 /*

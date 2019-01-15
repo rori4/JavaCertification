@@ -5,20 +5,20 @@ public class T36_Operators {
         test((byte) 'a');
     }
 
-
     public static void test(byte x){
-        switch(x){
+//        switch(x){
 //            case 97:
 //                System.out.println("1");
 //            case 'a':
 //                System.out.println("2");
 //                break;
-        }
+//        }
     }
 }
 
 /*
-If you know that the ascii equivalent of 'a' is 97 will this code compile?
+If you know that the ASCII equivalent of 'a' is 97 will this code compile?
+
 Yes, and it will print 1
 Yes, and it will print 2
 Yes, and it will print 1 and then 2
